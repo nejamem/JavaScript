@@ -1,0 +1,14 @@
+const kelvin = 10;
+console.log('Kelvin: ' + kelvin);
+//kelvin is set to 293
+let celsius = kelvin - 273;
+console.log('Celsius: ' + celsius);
+//celsius is 20
+let fahrenheit = celsius*(9/5)+32;
+//fahrenheit is 68
+fahrenheit = Math.floor(fahrenheit);
+//I hope this rounds
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+//It did round
+let newton = Math.floor(celsius*(33/100));
+console.log(`The temperature is ${newton} degrees Newtons`);

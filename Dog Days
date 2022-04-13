@@ -1,0 +1,17 @@
+let myAge = 23;
+//my age is 23 years old
+let earlyYears = 2;
+//youngin'
+earlyYears *= 10.5;
+console.log(earlyYears);
+let laterYears = myAge - 2;
+//my age - early years
+laterYears *= 4;
+//doggie years
+console.log(`${earlyYears} & ${laterYears}`);
+let myAgeInDogYears = earlyYears + laterYears;
+//my age in doggie years
+let myName = 'Michael'.toLowerCase();
+//lowercased my name
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+//variables in one sentences interpolated
